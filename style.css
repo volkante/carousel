@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  font-family: "Inter", sans-serif;
 }
 
 .carousel {
@@ -13,9 +13,8 @@
 section {
   display: flex;
   height: 260px;
-  background-color: #099268;
-  margin-bottom: 4rem;
-  position: absolute;
+  background-color: #087f5b;
+  margin-bottom: 2rem;
   border-radius: 12px;
 }
 
@@ -52,6 +51,17 @@ section button {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.citation {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #e6fcf5;
+}
+
+.person-info {
+  color: #c3fae8;
+  font-size: 14px;
 }
 
 .position-buttons {
