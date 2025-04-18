@@ -2,18 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .carousel {
-  width: 80%;
-  height: 260px;
+  max-width: 860px;
   margin: 5rem auto;
 }
 
 section {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 300px 5fr 1fr;
+  gap: 60px;
+  background-color: #099268;
+  margin-bottom: 1rem;
 }
 
 .man-pic {
@@ -21,4 +23,11 @@ section {
   height: 300px;
   object-fit: cover;
   object-position: top;
+}
+
+.quote {
+}
+
+.position-buttons {
+  text-align: center;
 }
