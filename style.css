@@ -6,16 +6,17 @@
 }
 
 .carousel {
-  max-width: 860px;
-  margin: 5rem auto;
+  width: 780px;
+  margin: 6rem auto;
 }
 
 section {
-  display: grid;
-  grid-template-columns: 1fr 300px 8fr 1fr;
-  gap: 42px;
+  display: flex;
+  height: 260px;
   background-color: #099268;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+  position: absolute;
+  border-radius: 12px;
 }
 
 .man-pic {
@@ -23,9 +24,31 @@ section {
   height: 300px;
   object-fit: cover;
   object-position: top;
+  position: relative;
+  bottom: 20px;
+  border-radius: 16px;
+  margin-right: 36px;
+}
+
+section button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.previous-button {
+  position: relative;
+  left: -21px;
+}
+
+.next-button {
+  position: relative;
+  right: -21px;
 }
 
 .quote {
+  width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
