@@ -38,9 +38,10 @@ section .btn {
   position: relative;
   align-self: center;
   border: 1px solid black;
-  border-radius: 50%;
-  padding: 4px;
+  border-radius: 60%;
+  padding: 2px 4px;
   box-sizing: content-box;
+  font-weight: 100;
 }
 
 .previous-btn {
