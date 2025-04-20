@@ -29,20 +29,25 @@ section {
   margin-right: 36px;
 }
 
-section button {
-  width: 42px;
-  height: 42px;
+section .btn {
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
+  background-color: white;
   align-self: center;
+  position: relative;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 4px;
+  box-sizing: content-box;
 }
 
-.previous-button {
-  position: relative;
+.previous-btn {
   left: -21px;
 }
 
-.next-button {
-  position: relative;
+.next-btn {
   right: -21px;
 }
 
