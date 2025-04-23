@@ -6,7 +6,7 @@
 }
 
 .carousel {
-  width: 780px;
+  width: 800px;
   margin: 6rem auto;
 }
 
@@ -14,7 +14,7 @@ section {
   display: flex;
   height: 260px;
   background-color: #087f5b;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 12px;
 }
 
@@ -27,21 +27,24 @@ section {
   bottom: 20px;
   border-radius: 16px;
   margin-right: 36px;
+  box-shadow: 2px 2px 10px gray;
 }
 
 section .btn {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background-color: white;
   align-self: center;
   position: relative;
   align-self: center;
-  border: 1px solid black;
-  border-radius: 60%;
-  padding: 2px 4px;
-  box-sizing: content-box;
-  font-weight: 100;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 50%;
+  padding: 2px 10px;
+}
+
+section .btn:hover {
+  cursor: pointer;
 }
 
 .previous-btn {
@@ -71,5 +74,23 @@ section .btn {
 }
 
 .position-buttons {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-self: center;
+}
+
+.position-buttons .dot {
+  border: 2px solid #087f5b;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dot--fill {
+  color: #087f5b;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #087f5b;
 }
